@@ -210,9 +210,7 @@ function doWhile(num) {
    // Utilizar el bucle Do-While.
    // Tu código:
    let result = num;
-   let contador = 0;
-   while (contador < 8) {
-      contador++
+   for(let i = 0; i < 8; i++) {
       result += 5;
    }
    return result;
